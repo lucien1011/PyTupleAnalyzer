@@ -1,5 +1,5 @@
 import ROOT
-from MyUtils.probFunc import binoError
+from probFunc import binoError
 
 def makeBinoHist(numHist,demHist):
     nbins = numHist.GetNbinsX()

@@ -1,7 +1,7 @@
 
 import ROOT
-from Core.TreeHandler import TreeHandler
-from Core.Events import *
+from TreeHandler import TreeHandler
+from Events import *
 
 class Process(object):
 
