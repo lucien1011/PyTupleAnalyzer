@@ -1,5 +1,7 @@
 
-class Analyzer(object):
+from CoreObject import CoreObject
+
+class Analyzer(CoreObject):
     def __init__(self,name):
         self.name = name
         self.hists = {}

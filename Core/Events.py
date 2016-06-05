@@ -1,10 +1,11 @@
 
 import ROOT
 from collections import OrderedDict
+from CoreObject import CoreObject
 
 ##__________________________________________________________________||
 
-class Events(object):
+class Events(CoreObject):
     """
     event class to read data from one single tree
     """

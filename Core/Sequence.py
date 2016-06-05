@@ -1,5 +1,7 @@
 
-class Sequence(object):
+from CoreObject import CoreObject
+
+class Sequence(CoreObject):
     def __init__(self):
         self.seq = []
 

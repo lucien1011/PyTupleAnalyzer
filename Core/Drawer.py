@@ -1,6 +1,7 @@
 import ROOT
+from CoreObject import CoreObject
 
-class Drawer(object):
+class Drawer(CoreObject):
     
     @staticmethod
     def drawEverything(histDict,outputDir):

@@ -1,9 +1,10 @@
 
 import os,ROOT
+from CoreObject import CoreObject
 
 ##__________________________________________________________________||
 
-class TreeHandler(object):
+class TreeHandler(CoreObject):
     """
     class that deal with the IO of ROOT trees
     instances of this class are used by looper to run analysis 
